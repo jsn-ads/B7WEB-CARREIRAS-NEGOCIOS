@@ -1,41 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap');
 
-html{
+html {
     font-size: 62.5%;
 }
 
 
 /* 001 */
 
-.body-A{
-    background-image: linear-gradient(45deg,#75a6ea, #0000BB); 
+.body-A {
+    background-image: linear-gradient(45deg, #75a6ea, #0000BB);
 }
 
-.square-A{
+.square-A {
     width: 200px;
     height: 200px;
-    background-image: linear-gradient(to right, rgb(239, 99, 12), rgb(154, 80, 80)); 
+    background-image: linear-gradient(to right, rgb(239, 99, 12), rgb(154, 80, 80));
 }
 
 /* 002 */
 
-.title-B{
+.title-B {
     font-family: "Playwrite MX", cursive;
 }
 
 /* 003 */
 
-.h1-C{
+.h1-C {
     font-size: 2rem;
 }
 
-.p-C{
+.p-C {
     font-size: 1rem;
 }
 
 /* 004 */
 
-.squad-D{
+.squad-D {
     width: 300px;
     height: 300px;
     background-color: rgb(57, 174, 14);
@@ -46,7 +46,7 @@ html{
 
 /* 005 */
 
-.squad-E{
+.squad-E {
     width: 30rem;
     height: 30rem;
     background-color: rgb(193, 199, 10);
@@ -54,8 +54,28 @@ html{
     border-radius: 2rem;
 }
 
-.squad-E:hover{
+.squad-E:hover {
     width: 35rem;
     height: 35rem;
     background-color: rgb(199, 98, 10);
+}
+
+/* 006 */
+
+.rect-06 {
+    width: 40rem;
+    padding: 1rem;
+    background-color: #ef9904;
+    border: 4px solid #000;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px #ef9904;
+    font-size: 4rem;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.rect-06:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 2rem;
 }
