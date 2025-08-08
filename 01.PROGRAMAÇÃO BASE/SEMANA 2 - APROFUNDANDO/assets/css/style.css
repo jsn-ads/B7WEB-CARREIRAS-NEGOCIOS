@@ -119,3 +119,19 @@ html {
     color: #ffffff;
     padding: 2rem;
 }
+
+/* 008 */
+
+.area-08{
+    display: flex;
+    /* obs: gap e diferente de margin, 
+        margin afeta o item em si
+        gap afeta area onde ficaram todos itens e melhor ocisão quebra o layout
+    */
+    gap: 10px;
+}
+
+.square-08{
+    font-size: 4rem;
+    background-color: orange;
+}
