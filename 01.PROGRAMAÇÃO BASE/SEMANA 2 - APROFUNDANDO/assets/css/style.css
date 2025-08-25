@@ -124,9 +124,14 @@ html {
 
 .area-08{
     display: flex;
+    background-color: silver;
+    flex-direction: row;
+    /* justify e align um sempre alinha a horizontal e outro a vertical de acordo com flex direction */
+    justify-content: space-between;
+    align-items: center;
     /* obs: gap e diferente de margin, 
         margin afeta o item em si
-        gap afeta area onde ficaram todos itens e melhor ocisão quebra o layout
+        gap afeta area onde ficaram todos itens
     */
     gap: 10px;
 }
@@ -134,4 +139,19 @@ html {
 .square-08{
     font-size: 4rem;
     background-color: orange;
+}
+
+.s8-1{
+    width: 50px;
+    height: 70px;
+}
+
+.s8-2{
+    width: 100px;
+    height: 150px;
+}
+
+.s8-3{
+    width: 120px;
+    height: 70px;
 }
