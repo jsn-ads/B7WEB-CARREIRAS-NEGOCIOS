@@ -155,3 +155,62 @@ html {
     width: 120px;
     height: 70px;
 }
+
+/* 009 */
+
+.area-09{
+    background-color: gray;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; 
+}
+
+.square-09{
+    font-size: 6rem;
+    background-color: orange;
+}
+
+.s9-1{
+    width: 50px;
+    height: 70px;
+}
+
+.s9-2{
+    width: 100px;
+    height: 150px;
+}
+
+.s9-3{
+    width: 120px;
+    height: 70px;
+}
+
+.s9-4{
+    width: 120px;
+    height: 70px;
+}
+
+.s9-5{
+    width: 120px;
+    height: 70px;
+}
+
+.s9-6{
+    width: 120px;
+    height: 70px;
+}
+
+.s9-7{
+    width: 120px;
+    height: 70px;
+}
+
+.s9-8{
+    width: 120px;
+    height: 70px;
+}
+
+.s9-9{
+    width: 120px;
+    height: 70px;
+}
