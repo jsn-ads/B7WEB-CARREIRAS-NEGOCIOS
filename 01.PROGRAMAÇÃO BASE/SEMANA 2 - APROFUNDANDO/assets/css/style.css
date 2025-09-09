@@ -214,3 +214,22 @@ html {
     width: 120px;
     height: 70px;
 }
+
+/* 009 */
+
+.area-10{
+    
+}
+
+.header-10,
+.nav-10,
+.main-10,
+.aside-10,
+.footer-10{
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: orange;
+}
+
+
