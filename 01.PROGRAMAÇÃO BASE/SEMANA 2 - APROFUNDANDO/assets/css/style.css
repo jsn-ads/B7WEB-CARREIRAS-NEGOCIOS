@@ -215,10 +215,12 @@ html {
     height: 70px;
 }
 
-/* 009 */
+/* 010 */
 
 .area-10{
-    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
 }
 
 .header-10,
@@ -230,6 +232,20 @@ html {
     text-align: center;
     padding: 1rem;
     background-color: orange;
+}
+
+.header-10{
+    grid-column: 1 / 4;
+}
+
+.nav-10{
+    /* grid-column: 1 / 2; */
+    grid-row: 2 / 4;
+}
+
+.footer-10{
+    grid-column: 2 / 4;
+    /* grid-row: 3 / 3; */
 }
 
 
