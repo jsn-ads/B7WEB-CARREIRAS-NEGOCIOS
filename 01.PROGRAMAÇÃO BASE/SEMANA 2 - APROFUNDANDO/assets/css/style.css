@@ -274,7 +274,7 @@ html {
     }
 }
 
-@media(width > 600px){
+@media(width > 425px){
     .area-11{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -297,7 +297,7 @@ html {
     }   
 }
 
-@media (width > 1000px){
+@media (width > 769px){
     .area-11{
         grid-template-columns: repeat(4,1fr);   
         max-width: 1200px;
